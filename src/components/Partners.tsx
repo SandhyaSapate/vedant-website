@@ -2,7 +2,7 @@
 const Partners = () => {
   const partners = [
     { name: "HP", logo: "HP" },
-    { name: "DELL", logo: "DELL" },
+    { name: "AQUAGUARD", logo: "AQUAGUARD" },
     { name: "ACER", logo: "ACER" },
     { name: "LENOVO", logo: "LENOVO" },
     { name: "BROTHER", logo: "BROTHER" },

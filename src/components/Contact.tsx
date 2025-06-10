@@ -21,12 +21,12 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-start">
                 <div className="text-vedant-500 mr-4 mt-1">
-                  <MapPin size={20} />
+                  {/* <MapPin size={20} /> */}
                 </div>
-                <div>
+                {/* <div>
                   <h4 className="font-medium">Address</h4>
                   <p className="text-gray-600">Office Address, Street Name, City, State, PIN Code</p>
-                </div>
+                </div> */}
               </div>
               
               <div className="flex items-start">
@@ -35,17 +35,17 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-gray-600">info@vedantenterprises.com</p>
+                  <p className="text-gray-600">Contact@vedantit.in</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <div className="text-vedant-500 mr-4 mt-1">
-                  <Phone size={20} />
+                  <Phone size={20} />info
                 </div>
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <p className="text-gray-600">+91 1234567890</p>
+                  <p className="text-gray-600">+91 7447446801</p>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Saturday:</span>
-                  <span>9:00 AM - 1:00 PM</span>
+                  <span>9:00 AM - 6:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Sunday:</span>
