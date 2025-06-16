@@ -25,16 +25,16 @@ const Navbar = () => {
             <Link to="/" className="text-gray-700 hover:text-vedant-600 font-medium">
               Home
             </Link>
-            <Link to="/#products" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/products" className="text-gray-700 hover:text-vedant-600 font-medium">
               Products
             </Link>
-            <Link to="/#services" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/services" className="text-gray-700 hover:text-vedant-600 font-medium">
               Services
             </Link>
-            <Link to="/#partners" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/partners" className="text-gray-700 hover:text-vedant-600 font-medium">
               Partners
             </Link>
-            <Link to="/#contact" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/contact" className="text-gray-700 hover:text-vedant-600 font-medium">
               Contact
             </Link>
           </div>
@@ -54,16 +54,16 @@ const Navbar = () => {
               <Link to="/" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Home
               </Link>
-              <Link to="/#products" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/products" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Products
               </Link>
-              <Link to="/#services" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/services" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Services
               </Link>
-              <Link to="/#partners" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/partners" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Partners
               </Link>
-              <Link to="/#contact" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/contact" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Contact
               </Link>
             </div>
