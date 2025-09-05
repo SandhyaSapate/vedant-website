@@ -11,30 +11,39 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-3">
+  <nav
+    className="bg-transparent fixed top-0 left-0 w-full z-50"
+    style={{
+      background: 'rgba(34, 34, 34, 0.3)',
+      backdropFilter: 'blur(12px)',
+      WebkitBackdropFilter: 'blur(12px)',
+      boxShadow: 'none',
+    }}
+  >
+  <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
+            <img src="/vedantlogo.png" alt="Vedant Logo" className="h-10 w-auto mr-3" />
             <Link to="/" className="text-2xl font-bold text-vedant-600">
-              Vedant Enterprises & IT Solutions
+              Vedant
             </Link>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <Link to="/" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/" className="text-white hover:text-vedant-600 font-medium">
               Home
             </Link>
-            <Link to="/products" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/products" className="text-white hover:text-vedant-600 font-medium">
               Products
             </Link>
-            <Link to="/services" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/services" className="text-white hover:text-vedant-600 font-medium">
               Services
             </Link>
-            <Link to="/partners" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/partners" className="text-white hover:text-vedant-600 font-medium">
               Partners
             </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-vedant-600 font-medium">
+            <Link to="/contact" className="text-white hover:text-vedant-600 font-medium">
               Contact
             </Link>
           </div>
@@ -51,19 +60,19 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4">
             <div className="flex flex-col space-y-3">
-              <Link to="/" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/" className="text-white hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Home
               </Link>
-              <Link to="/products" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/products" className="text-white hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Products
               </Link>
-              <Link to="/services" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/services" className="text-white hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Services
               </Link>
-              <Link to="/partners" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/partners" className="text-white hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Partners
               </Link>
-              <Link to="/contact" className="text-gray-700 hover:text-vedant-600 font-medium" onClick={toggleMenu}>
+              <Link to="/contact" className="text-white hover:text-vedant-600 font-medium" onClick={toggleMenu}>
                 Contact
               </Link>
             </div>
